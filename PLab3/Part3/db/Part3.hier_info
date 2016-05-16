@@ -1,0 +1,26 @@
+|MS
+SW[0] => part2:L0.D
+SW[1] => part2:L1.Clk
+SW[1] => part2:L0.Clk
+LEDR[0] <= part2:L1.Q
+LEDR[1] <= part2:L1.QN
+
+
+|MS|part2:L0
+Clk => R_g.IN0
+Clk => S_g.IN0
+D => S_g.IN1
+D => R_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+QN <= QN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MS|part2:L1
+Clk => R_g.IN0
+Clk => S_g.IN0
+D => S_g.IN1
+D => R_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+QN <= QN.DB_MAX_OUTPUT_PORT_TYPE
+
+

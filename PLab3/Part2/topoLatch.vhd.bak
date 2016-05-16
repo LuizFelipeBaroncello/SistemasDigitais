@@ -1,0 +1,18 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity topoLatch is
+port (
+		SW : in std_logic_vector(1 downto 0);
+		LEDR: out std_logic(0);
+);
+end entity;
+
+architecture Structural of topoLatch is
+	
+	
+	
+	
+	
+begin
+end Structural;
