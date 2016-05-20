@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity sel_nivel is
+ port ( SW: in std_logic_vector (9 downto 0);
+		clock_50: in std_logic;
+		CLK: out std_logic;
+		
+ );
+end sel_nivel;
+

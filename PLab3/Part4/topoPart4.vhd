@@ -16,7 +16,7 @@ begin
 		if CLK = '1' then
 			Qa <= D;
 		end if;
-	end process;l
+	end process;
 	
 	process(clk)
 	begin

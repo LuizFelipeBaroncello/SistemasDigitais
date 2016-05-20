@@ -1,4 +1,11 @@
-|part2
+|topoLatch
+SW[0] => part2:L0.D
+SW[1] => part2:L0.Clk
+LEDR[0] <= part2:L0.Q
+LEDR[1] <= part2:L0.Qn
+
+
+|topoLatch|part2:L0
 Clk => R_g.IN0
 Clk => S_g.IN0
 D => S_g.IN1

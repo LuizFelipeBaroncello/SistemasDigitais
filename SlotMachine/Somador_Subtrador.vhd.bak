@@ -1,0 +1,8 @@
+library IEEE;
+use IEEE.Std_Logic_1164.all;
+
+entity Somador_Subtrator is
+port (	CREDITO: in std_logic_vector(10 downto 0);
+			CREDITO_NOVO: in std_logic_vector(10 downto 0);
+		);
+end Somador_Subtrator;

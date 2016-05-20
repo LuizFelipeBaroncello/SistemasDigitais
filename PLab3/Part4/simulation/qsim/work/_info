@@ -4,82 +4,82 @@ K3
 cModel Technology
 Z0 dC:\Users\Felipe\Desktop\PLab3\Part4\simulation\qsim
 vtopoPart4
-Z1 I@H@l?BXA33LU9Fgh7?4DF3
-Z2 VR]CUb2kiXf<V]DT7AH5L92
-Z3 dC:\Users\Felipe\Desktop\PLab3\Part4\simulation\qsim
-Z4 w1463171667
-Z5 8Part4.vo
-Z6 FPart4.vo
+Z1 !s100 I3gP3jB8emjfFQzaiWgU00
+Z2 I@H@l?BXA33LU9Fgh7?4DF3
+Z3 VR]CUb2kiXf<V]DT7AH5L92
+Z4 dC:\Users\Felipe\Dropbox\Git\gitClone\SistemasDigitais\PLab3\Part4\simulation\qsim
+Z5 w1463664059
+Z6 8Part4.vo
+Z7 FPart4.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
-Z9 ntopo@part4
+Z9 !s90 -work|work|Part4.vo|
+Z10 o-work work -O0
+Z11 ntopo@part4
 !i10b 1
-Z10 !s100 I3gP3jB8emjfFQzaiWgU00
 !s85 0
-Z11 !s108 1463171668.225000
-Z12 !s107 Part4.vo|
-Z13 !s90 -work|work|Part4.vo|
+Z12 !s108 1463664061.511000
+Z13 !s107 Part4.vo|
 !s101 -O0
 vtopoPart4_vlg_check_tst
 !i10b 1
-!s100 dc`3X8:`DC9j>:jMQ5eZK0
-IP_62EdP18KdjeSLcVec3m2
-VC<KTLS:R@Co^?o1Q`4TOo3
-R3
-Z14 w1463171666
-Z15 8Part4.vt
-Z16 FPart4.vt
+Z14 !s100 dc`3X8:`DC9j>:jMQ5eZK0
+Z15 IP_62EdP18KdjeSLcVec3m2
+Z16 VC<KTLS:R@Co^?o1Q`4TOo3
+R4
+Z17 w1463664056
+Z18 8Part4.vt
+Z19 FPart4.vt
 L0 59
-R7
+R8
 r1
 !s85 0
 31
-Z17 !s108 1463171668.506000
-Z18 !s107 Part4.vt|
-Z19 !s90 -work|work|Part4.vt|
+Z20 !s108 1463664061.858000
+Z21 !s107 Part4.vt|
+Z22 !s90 -work|work|Part4.vt|
 !s101 -O0
-R8
-ntopo@part4_vlg_check_tst
+R10
+Z23 ntopo@part4_vlg_check_tst
 vtopoPart4_vlg_sample_tst
 !i10b 1
-!s100 4172oIi3>nhRhf:>_R3Pj2
-I[1UgMa>TXmg3fH:Rn[2U62
-V39z`=calkYJF]`GZZb8242
-R3
-R14
-R15
-R16
-L0 29
-R7
-r1
-!s85 0
-31
+Z24 !s100 4172oIi3>nhRhf:>_R3Pj2
+Z25 I[1UgMa>TXmg3fH:Rn[2U62
+Z26 V39z`=calkYJF]`GZZb8242
+R4
 R17
 R18
 R19
-!s101 -O0
+L0 29
 R8
-ntopo@part4_vlg_sample_tst
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 ntopo@part4_vlg_sample_tst
 vtopoPart4_vlg_vec_tst
 !i10b 1
-!s100 g?I5VNTOJ2Vg8aSd:Nkc^1
-IO<E?;VnSIo9McVJ3BBSm^0
-VllN:UPe^E@_<;zI;Z2f[d2
-R3
-R14
-R15
-R16
-L0 208
-R7
-r1
-!s85 0
-31
+Z28 !s100 g?I5VNTOJ2Vg8aSd:Nkc^1
+Z29 IO<E?;VnSIo9McVJ3BBSm^0
+Z30 VllN:UPe^E@_<;zI;Z2f[d2
+R4
 R17
 R18
 R19
-!s101 -O0
+Z31 L0 208
 R8
-ntopo@part4_vlg_vec_tst
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 ntopo@part4_vlg_vec_tst

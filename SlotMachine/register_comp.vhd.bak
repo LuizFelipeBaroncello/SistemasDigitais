@@ -1,0 +1,28 @@
+library IEEE;
+use IEEE.Std_Logic_1164.all;
+
+entity register_comp is
+port (	entrada_reg: in std_logic_vector (10 downto 0);
+			Clk: std_logic;
+			RST: std_logic;
+			saida_reg: std_logic_vector (10 downto 0)
+		);
+end register_comp;
+
+architecture regist of register_comp is
+begin
+
+	process (CLK, RST, D)
+	
+ begin
+	if RST = "0" then
+		Q <= "0";
+	elsif CLK'event and CLK = "1" then
+	
+	if EN = "1" then
+		Q <= D;
+	
+	end if;
+	end if;
+end process;
+end regist;

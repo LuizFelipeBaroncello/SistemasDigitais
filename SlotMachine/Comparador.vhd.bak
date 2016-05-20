@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Comparador is
+ port (	HABILITA_PREMIO: std_logic;
+			SW: in std_logic_vector (9 downto 0);
+			SEQ_0: in std_logic_vector (3 downto 0);
+			SEQ_1: in std_logic_vector (3 downto 0);
+			SEQ_2: in std_logic_vector (3 downto 0);
+
+ );
+end Comparador;

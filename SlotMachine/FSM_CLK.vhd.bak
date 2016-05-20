@@ -1,0 +1,18 @@
+library IEEE;
+use IEEE.Std_Logic_1164.all;
+
+entity FSM_CLK is
+port (	clock_50: in std_logic;
+		Clk1: out std_logic;
+		Clk2: out std_logic;
+		);
+end FSM_CLK;
+
+architecture FSM_Clk of FSM_CLK is
+	
+	begin
+
+	
+	
+	
+end FSM_Clk;

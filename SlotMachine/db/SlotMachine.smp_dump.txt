@@ -1,0 +1,67 @@
+
+State Machine - |SlotMachine|Controlador:L5|FSM_Control:L1|EA
+Name EA.S6 EA.S5 EA.S4 EA.S3 EA.S2 EA.S1 EA.S0 
+EA.S0 0 0 0 0 0 0 0 
+EA.S1 0 0 0 0 0 1 1 
+EA.S2 0 0 0 0 1 0 1 
+EA.S3 0 0 0 1 0 0 1 
+EA.S4 0 0 1 0 0 0 1 
+EA.S5 0 1 0 0 0 0 1 
+EA.S6 1 0 0 0 0 0 1 
+
+State Machine - |SlotMachine|Sequenciadores:L1|FSM_2:L3|EA
+Name EA.S15 EA.S14 EA.S13 EA.S12 EA.S11 EA.S10 EA.S9 EA.S8 EA.S7 EA.S6 EA.S5 EA.S4 EA.S3 EA.S2 EA.S1 EA.S0 
+EA.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+EA.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+EA.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+EA.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+EA.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+EA.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+EA.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+EA.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+EA.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+EA.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+EA.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+EA.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+EA.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+EA.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+EA.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+EA.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |SlotMachine|Sequenciadores:L1|FSM_1:L2|EA
+Name EA.S15 EA.S14 EA.S13 EA.S12 EA.S11 EA.S10 EA.S9 EA.S8 EA.S7 EA.S6 EA.S5 EA.S4 EA.S3 EA.S2 EA.S1 EA.S0 
+EA.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+EA.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+EA.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+EA.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+EA.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+EA.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+EA.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+EA.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+EA.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+EA.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+EA.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+EA.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+EA.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+EA.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+EA.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+EA.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |SlotMachine|Sequenciadores:L1|FSM_0:L1|EA
+Name EA.S15 EA.S14 EA.S13 EA.S12 EA.S11 EA.S10 EA.S9 EA.S8 EA.S7 EA.S6 EA.S5 EA.S4 EA.S3 EA.S2 EA.S1 EA.S0 
+EA.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+EA.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+EA.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+EA.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+EA.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+EA.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+EA.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+EA.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+EA.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+EA.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+EA.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+EA.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+EA.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+EA.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+EA.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+EA.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

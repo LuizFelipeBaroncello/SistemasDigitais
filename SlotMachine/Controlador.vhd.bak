@@ -1,0 +1,71 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Controlador is
+ port (	CREDITO: in std_logic_vector(10 downto 0);
+			CREDITO_23: in std_logic;
+			KEY0: in std_logic;
+			RESET_CONTADOR: in std_logic;
+			CLOCK: in std_logic;
+			LEDR : out std_logic_vector (9 downto 0);
+			MSB: out std_logic
+			
+		);
+end Controlador;
+
+architecture control of Controlador is
+  signal CREDITO_NOVO, SAIDA_SOMADOR, SAIDA_MUX: std_logic_vector(10 downto 0);
+  
+  
+	 component Somador_Subtrator
+		port (	
+				CREDITO: in std_logic_vector(10 downto 0);
+				CREDITO_NOVO: in std_logic_vector(10 downto 0);
+				Saida_Somador: out std_logic_vector(10 downto 0)
+				);	
+				
+	 end component;
+		
+	 component mux_cont
+		port (	
+				CREDITO_23: std_logic;
+				Saida_somador: std_logic_vector(10 downto 0);
+				Saida_mux: std_logic_vector(10 downto 0)
+				);	
+				
+	 end component; 
+	 
+	 component register_comp
+		port (	
+				entrada_reg: in std_logic_vector (10 downto 0);
+				Clk: std_logic;
+				RST: std_logic;
+				saida_reg: std_logic_vector (10 downto 0)
+				);	
+				
+	 end component; 
+		
+	 component comb
+		port (	
+				RST: in std_logic;
+				RESET_CONTADOR: in std_logic;
+				MSB: in std_logic;
+				saida_comb: out std_logic
+				);	
+				
+	 end component; 
+		
+		begin
+		
+				
+			L1: Somador_Subtrator port map (CREDITO, CREDITO_NOVO, SAIDA_SOMADOR);
+			
+			L2: mux_cont port map (CREDITO_23, SAIDA_SOMADOR, SAIDA_MUX);
+			
+			L3: register_comp port map (SAIDA_MUX, CLOCK, SAIDA_COMB, CREDITO_NOVO);
+			
+			L4: comb port map (KEY0, RESET_CONTADOR, MSB, SAIDA_COMB);
+	 		
+			LEDR <= CREDITO_NOVO(9 downto 0);
+			
+end control;

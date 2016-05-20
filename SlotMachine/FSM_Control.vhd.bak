@@ -1,0 +1,16 @@
+library IEEE;
+use IEEE.Std_Logic_1164.all;
+
+entity FSM_Control is
+port (	SEM_Credito: in std_logic_vector (9 downto 0);
+			Init/Stop: in std_logic;
+			Clk: in std_logic;
+			Rst: in std_logic;
+			C0, C1, C2: out std_logic;
+			Credito_23: out std_logic (10 downto 0);
+			Habilita_Premio: out std_logic;
+			Reset_Contadro: out std_logic;
+			Rodadas: in std_logic_vector(3 downto 0);
+			Estados: in std_logic_vector(3 downto 0)			
+		);
+end FSM_Control;

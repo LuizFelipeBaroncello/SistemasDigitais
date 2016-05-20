@@ -1,0 +1,16 @@
+library IEEE;
+use IEEE.Std_Logic_1164.all;
+
+entity comb is
+port (	RST: in std_logic;
+			RESET_CONTADOR: in std_logic;
+			MSB: in std_logic;
+			saida_comb: out std_logic
+		);
+end comb;
+
+architecture combb of comb is
+begin
+
+   
+end combb;

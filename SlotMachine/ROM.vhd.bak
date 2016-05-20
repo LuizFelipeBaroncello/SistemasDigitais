@@ -1,0 +1,35 @@
+library IEEE;
+use IEEE.Std_Logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity ROM is
+  port(
+         address : in std_logic_vector(1 downto 0);
+         Premio : out std_logic_vector(10 downto 0) 
+       );
+end entity;
+
+architecture memoria_Rom of ROM is
+
+  type mem is array ( 0 to 2**2 - 1) of std_logic_vector(13 downto 0);
+  constant my_Rom : mem := (
+    0  => "00000110000000",
+    1  => "00000000000001",
+    2  => "00000000000001",
+    3  => "10101010101010"
+    );
+
+begin
+
+   process (address)
+   begin
+     case address is
+       when "00" => data <= my_rom(0);
+       when "01" => data <= my_rom(1);
+       when "10" => data <= my_rom(2);
+       when "11" => data <= my_rom(3);
+       when others => data <= (others => '0');
+     end case;
+  end process;
+
+end memoria_Rom;
